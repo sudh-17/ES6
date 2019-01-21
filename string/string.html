@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        (function(){
+            let s = '𠮷a';
+            console.log(s.codePointAt(0)) // 134071
+            console.log(s.codePointAt(1)) // 57271
+            console.log(s.codePointAt(2)) // 97
+        }())
+    </script>
+</body>
+</html>
